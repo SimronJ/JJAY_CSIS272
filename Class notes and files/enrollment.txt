@@ -1,0 +1,4 @@
+ENROLLMENT REPORT
+
+Enrollment for course 272 is 51
+Enrollment for course 373 is 44
