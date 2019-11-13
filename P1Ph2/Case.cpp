@@ -10,6 +10,7 @@ Case::Case(){
     next_id = next_id + 1;
 }
 
+//getter for case id method 
 int Case::get_case_id(){
     return case_id;
 }
