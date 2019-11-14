@@ -24,8 +24,8 @@ public:
     Character(string = "unknown player");
     char get_ID() const;
     string get_name() const;
-    string get_postion() const;
-    void set_start_postion(); // where they begin on board
+    string get_position() const;
+    void set_start_position(); // where they begin on board
     void set_move();// how they move on the baord in turn
 
     ~Character();

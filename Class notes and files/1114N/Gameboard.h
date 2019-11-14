@@ -1,4 +1,4 @@
-//#include "Character.h"
+#include "Character.h"
 #include <vector>
 #include <string>
 
@@ -12,14 +12,14 @@ public:
   void display() const;
   void clear();
   void update();
-  //void addPlayer(Character*);
+  void addPlayer(Character*);
 
 private:
   std::string board_name{};
   int size{10};
   char fill_character;
   char board[10][10];
-  //std::vector<Character*> players;
+  std::vector<Character*> players;
 };
 
 #endif

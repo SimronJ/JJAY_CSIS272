@@ -28,7 +28,7 @@ void Gameboard::display() const{
 }
 
 // commented out until Character class built
-/*
+
 void Gameboard::addPlayer(Character* new_player){
   players.push_back(new_player);
   int row = new_player->row;
@@ -53,4 +53,3 @@ void Gameboard::update() {
     std::cout << "\n" << players[i]->get_name() << " moves to " << players[i]->get_position() << "\n"; 
   }
 }
-*/
