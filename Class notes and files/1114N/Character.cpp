@@ -28,7 +28,7 @@ void Character::set_start_position(){
     col = 3;
 }
 
-void Character::set_start_position(){
+void Character::set_move(){
     move_vertical = 1;
     move_horizontal = 1;
 }
