@@ -35,4 +35,5 @@ void Evidence::display_custody_chain(){
     for (auto &i : custody_chain ) {
         std::cout << i << '\n';
     }
+    std::cout << '\n';
 }

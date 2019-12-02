@@ -11,18 +11,20 @@ int main() {
   Timestamp ts1{day1, time1};
   string agent{"John Doe"};
 
-  // test code for Evidence class
-  // uncomment to test your 
-  // implementation of the functions
-
   Evidence item{ts1, agent};
   item.check_out("Jane Doe");
   item.check_in();
   item.check_out("Joe Doe");
   item.display_custody_chain();
 
+  Evidence item2{ts1, agent};
+  item2.check_out("Jane Doe");
+  item2.check_in();
+  item2.display_custody_chain();
+
   Case c2;
   c2.add_evidence(item);
+  c2.add_evidence(item2);
   c2.display_inventory();
 
   
