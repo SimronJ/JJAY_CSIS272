@@ -12,10 +12,10 @@ friend std::ostream& operator<< (std::ostream& output, const Character& characte
 
 public:
 Character(std::string = "unknown player"); // default name 
-char get_ID() const;
-void set_start_position();
+virtual char get_ID() const;
+virtual void set_start_position();
 std::string get_position() const;
-void set_move();
+virtual void set_move();
 std::string get_name() const;
 
 // changed private to protected

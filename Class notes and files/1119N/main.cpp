@@ -29,7 +29,7 @@ int main() {
 
 
   // commented out game for now until we get to polymorphism
-  /*  
+  
   Gameboard board{"Gameboard", '_'};
   board.addPlayer(&player1);
 
@@ -37,5 +37,5 @@ int main() {
     board.update();
     board.display();
   }
-  */
+  
 }

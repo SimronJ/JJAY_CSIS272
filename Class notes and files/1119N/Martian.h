@@ -9,9 +9,9 @@ private:
 
 public:    
    Martian(std::string); //take in name
-   void set_start_position();
-   void set_move();
-   char get_ID() const;
+  virtual void set_start_position() override;
+  virtual void set_move() override;
+  virtual char get_ID() const override;
 };
 
 
