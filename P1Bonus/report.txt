@@ -1,0 +1,11 @@
+Case ID: 1001
+
+Collected: 8/4/2019 15:30:00
+Collecting Agent: John Doe
+Location: Currently signed out to Joe Doe
+
+
+Custody Chain: 
+John Doe
+Jane Doe
+Joe Doe
